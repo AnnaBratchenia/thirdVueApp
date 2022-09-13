@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+<<<<<<< HEAD
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Third project VUE</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h2 class="myName">{{myName}}</h2>
+        <p class="myAge">{{myAge}}</p>
+        <p class="myFutureAge">{{myAgeInFuture()}}</p>
+        <p class="myFavoriteNumber">
+          MY favorite number: {{calcMyFavoriteNumber()}}
+        </p>
+        <img v-bind:src="picrute" class="img" alt="images" />
+        <input class="enteredValue" type="text" v-bind:value="myName" />
+      </div>
+    </section>
+=======
+    <title>Third project VUE</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-text">UEFA Champions League 2022</div>
+
+      <div class="header">
+        <button v-on:click="showTeamA" class="group groupA">Group A</button>
+        <button v-on:click="showTeamB" class="group groupB">Group B</button>
+        <button v-on:click="showTeamC" class="group groupC">Group C</button>
+        <div v-html="teamsGroup" class="team"></div>
+      </div>
+    </div>
+>>>>>>> fd5f92e66d1f5145e6bc201ed0950eec1b1ee620
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
